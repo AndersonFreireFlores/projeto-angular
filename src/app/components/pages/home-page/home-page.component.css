@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.home-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.home-item:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
