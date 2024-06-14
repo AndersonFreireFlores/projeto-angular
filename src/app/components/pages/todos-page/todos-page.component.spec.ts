@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TodosPageComponent } from './todos-page.component';
+import { TodosComponent } from './todos-page.component';
 
 describe('TodosPageComponent', () => {
-  let component: TodosPageComponent;
-  let fixture: ComponentFixture<TodosPageComponent>;
+  let component: TodosComponent;
+  let fixture: ComponentFixture<TodosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TodosPageComponent]
+      imports: [TodosComponent]
     })
     .compileComponents();
-    
-    fixture = TestBed.createComponent(TodosPageComponent);
+
+    fixture = TestBed.createComponent(TodosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
